@@ -1,14 +1,11 @@
 @import "{{ site.theme }}";
-
 $auto1-blue: #3b82f6;
 $auto1-blue-dark: #2563eb;
 $auto1-text: #1f2937;
-
 body {
   font-family: "Open Sans", sans-serif !important;
   color: $auto1-text;
 }
-
 header {
   background-color: $auto1-blue !important;
   background-image: linear-gradient(
