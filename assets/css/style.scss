@@ -1,0 +1,42 @@
+@import "{{ site.theme }}";
+
+$auto1-blue: #3b82f6;
+$auto1-blue-dark: #2563eb;
+$auto1-text: #1f2937;
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  color: $auto1-text;
+}
+
+header {
+  background-color: $auto1-blue !important;
+  background-image: linear-gradient(
+    120deg,
+    $auto1-blue-dark,
+    $auto1-blue
+  ) !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif !important;
+  color: $auto1-text;
+}
+a {
+  color: $auto1-blue;
+  &:hover {
+    color: $auto1-blue-dark;
+  }
+}
+.btn {
+  background-color: $auto1-blue;
+  border-color: $auto1-blue;
+  &:hover {
+    background-color: $auto1-blue-dark;
+    border-color: $auto1-blue-dark;
+  }
+}
